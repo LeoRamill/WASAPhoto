@@ -1,0 +1,33 @@
+# Build using -> 
+# docker build -t wasaphoto-backend:latest -f Dockerfile.backend .
+#
+# Execute the Dockerfile.backend using ->
+# docker run -it -p 3000:3000 --rm wasaphoto-backend:latest (*)
+# (*) Since we don't care about having persistent data we don't need a volume (-v)
+
+# BUILD PHASE (backend_compiler)
+# It uses as a basis the image `golang:1.19.4`, which provides a Go development environment.
+FROM golang:1.19.4 as backend_compiler
+# Create a directory `/Executable/` within the image. It creates a directory /Executable/ within the image using the RUN command.
+RUN mkdir /Executable/
+# It sets the working directory to /GoFiles/.
+WORKDIR /GoFiles/
+# It copies the entire context (your project files) into the image.
+COPY . .
+# It runs go build -o /Executable/ ./cmd/webapi to compile the Go application located in 
+# the cmd/webapi directory and output the executable to /Executable/.
+RUN go build -o /Executable/ ./cmd/webapi
+
+
+# SETTING UP THE EXECUTION ENVIRONMENT:
+# It starts a new stage based on the debian:stable image.
+FROM debian:stable
+# It sets the working directory to /executable_backend/.
+WORKDIR /executable_backend/
+# It copies the compiled executable from the backend_compiler stage 
+# into the current stage using the COPY --from=backend_compiler /Executable/ . command.
+COPY --from=backend_compiler /Executable/ .
+# It exposes port 3000 using the EXPOSE directive.
+EXPOSE 3000
+# Finally, it sets the default command to run the webapi executable with CMD ["./webapi"].
+CMD ["./webapi"]

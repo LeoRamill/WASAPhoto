@@ -1,0 +1,25 @@
+# Build using -> 
+# docker build -t wasaphoto-frontend:latest -f Dockerfile.frontend .
+#
+# Execute the Dockerfile.frontend using ->
+# docker run -it -p 8080:80 --rm wasaphoto-frontend:latest
+
+# BUILDING FRONTEND APPLICATION
+# It starts with a base image node:lts, which includes Node.js and npm.
+# It sets up a build stage named frontend_compiler.
+FROM node:lts as frontend_compiler
+# It sets the working directory to /src/webui
+WORKDIR /src/webui
+# It copies the contents of the webui directory from the local filesystem into the image.
+COPY webui .
+# It runs npm run build-prod to build the frontend application for production.
+RUN npm run build-prod
+
+# Setting up Nginx for Serving the Frontend:
+# It starts a new stage based on the nginx:latest image, which provides a lightweight and efficient web server.
+FROM nginx:latest
+# It copies the compiled static files from the frontend_compiler stage (/src/webui/dist) into 
+# the Nginx's HTML directory (/usr/share/nginx/html). This directory is where Nginx serves static files from.
+COPY --from=frontend_compiler /src/webui/dist /usr/share/nginx/html
+# It exposes port 80 using the EXPOSE directive, which is the default HTTP port.
+EXPOSE 80
