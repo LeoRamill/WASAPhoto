@@ -2,6 +2,8 @@
 Project for the Web And Software Architecture exam  A.Y 2023/2024.
 
 > Keep in touch with your friends by sharing photos of special moments, thanks to WASAPhoto! Directly from your PC, you can upload your photos, and they will be  visible to everyone who is following you.
+> 
+<img width="1626" alt="Screenshot 2024-04-18 alle 18 11 47" src="https://github.com/LeoRamill/WASAPhoto/assets/161584956/51ac6580-6942-47ae-b653-efdbfd00ca3a">
 
 
 ## Project structure
@@ -73,6 +75,12 @@ If you want to launch the WebUI, open a new tab and launch:
 # (here you're inside the NPM container)
 npm run dev
 ```
+
+
+
+https://github.com/LeoRamill/WASAPhoto/assets/161584956/d7e88bff-eff2-4318-a63d-801328b7d80e
+
+
 
 ## How to build container images
 
