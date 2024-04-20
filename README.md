@@ -78,9 +78,6 @@ npm run dev
 
 
 
-https://github.com/LeoRamill/WASAPhoto/assets/161584956/d7e88bff-eff2-4318-a63d-801328b7d80e
-
-
 
 ## How to build container images
 
