@@ -1,20 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Pagina-1" id="T6tFICRMJ_LrYM-cSHg2">
-    <mxGraphModel dx="1575" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1155" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="i2fZFhqsmbokk2843mm3-1" value="" style="group;labelBackgroundColor=none;textShadow=1;fillColor=#67AB9F;opacity=50;strokeColor=#67AB9F;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="660" y="480" width="610" height="285.48" as="geometry" />
-        </mxCell>
-        <mxCell id="i2fZFhqsmbokk2843mm3-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" parent="i2fZFhqsmbokk2843mm3-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="280" as="sourcePoint" />
-            <mxPoint x="610" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="610" y="280" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="i2fZFhqsmbokk2843mm3-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" parent="i2fZFhqsmbokk2843mm3-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -183,11 +174,11 @@
         <mxCell id="i2fZFhqsmbokk2843mm3-79" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1520" y="1030" as="sourcePoint" />
-            <mxPoint x="1710" y="1040" as="targetPoint" />
+            <mxPoint x="1710" y="1050" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1520" y="1120" />
               <mxPoint x="1680" y="1120" />
-              <mxPoint x="1680" y="1040" />
+              <mxPoint x="1680" y="1050" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -289,8 +280,8 @@
         </mxCell>
         <mxCell id="dL8MM0K-KIuf2JgsoIzI-29" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1770" y="1057.35" as="sourcePoint" />
-            <mxPoint x="1830" y="1057.35" as="targetPoint" />
+            <mxPoint x="1770" y="1050.4499999999998" as="sourcePoint" />
+            <mxPoint x="1830" y="1050.4499999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dL8MM0K-KIuf2JgsoIzI-30" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
@@ -391,6 +382,15 @@
         </mxCell>
         <mxCell id="dL8MM0K-KIuf2JgsoIzI-57" value="&lt;span style=&quot;font-family: Helvetica; font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;color: rgb(103, 171, 159);&quot;&gt;Mixed Prediction&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1510" y="520" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i2fZFhqsmbokk2843mm3-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;shadow=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="765.48" as="sourcePoint" />
+            <mxPoint x="1270" y="485.48" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1270" y="765.48" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
