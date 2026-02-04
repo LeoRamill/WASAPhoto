@@ -396,7 +396,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QvtN6uT3R_vixvvKFjhd" name="Pagina-2">
-    <mxGraphModel dx="1338" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1873" dy="1179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -708,6 +708,15 @@
         </mxCell>
         <mxCell id="c2ygvloZU7-YO_nYamuS-167" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="50" width="50" x="1880" y="547.49" as="geometry" />
+        </mxCell>
+        <mxCell id="-63A5KjQh8m1HkWz813Z-1" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;gradientDirection=east;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1940" y="572.02" as="sourcePoint" />
+            <mxPoint x="2070" y="572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-63A5KjQh8m1HkWz813Z-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 153, 153);&quot;&gt;LOGIT&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="2090" y="557.49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
